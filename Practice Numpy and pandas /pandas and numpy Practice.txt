@@ -1,0 +1,47 @@
+pandas and numpy 
+Practice Questions Using Pandas & NumPy
+🔹 Basic Exploration
+Show the first 10 rows of the dataset.
+
+Get the shape, column names, and data types.
+
+Count the number of missing values in each column.
+
+Get the number of passengers who survived vs. didn’t survive.
+
+Find the average age of passengers.
+
+🔹 Filtering & Conditional Selection
+Display all passengers who are male and under 18 years old.
+
+Find passengers who paid more than $100 and were in 1st class.
+
+Select all rows where age is missing.
+
+🔹 Feature Engineering
+Create a new column called FamilySize = SibSp + Parch.
+
+Create a new column that categorizes fare into bins (low, medium, high).
+
+Create a new column is_child that is True if age < 18.
+
+🔹 Grouping & Aggregation
+Find the survival rate for each passenger class (Pclass).
+
+Group by Sex and calculate the average fare and age.
+
+Count how many passengers survived from each embarkation port (Embarked).
+
+🔹 NumPy-Based Tasks
+Use NumPy to find the standard deviation of the age column.
+
+Normalize the Fare column using NumPy.
+
+Replace all NaN values in the Age column with the median age using NumPy.
+
+🔹 Sorting & Indexing
+Sort the passengers by fare in descending order.
+
+Set PassengerId as the index.
+
+Select passengers from index 100 to 200.
